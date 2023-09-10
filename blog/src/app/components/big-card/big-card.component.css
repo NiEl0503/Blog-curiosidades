@@ -28,5 +28,29 @@
 }
 
 .big-card__description p {
-    color: black;
+    color: rgb(223, 214, 214);
+}
+
+@media (max-width: 768px) {
+    .big-card__container {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .big-card__photo img {
+        height: auto;
+        min-width: 100%;
+    }
+
+    .big-card__title a {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .big-card__title a {
+        font-size: 16px;
+    }
 }
