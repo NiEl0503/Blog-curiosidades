@@ -1,0 +1,18 @@
+.menu-bar__container {
+    margin-top: 15px;
+}
+
+.menu-bar__container ul{
+display: flex;
+flex-direction: row;
+}
+
+.menu-bar__container li{
+    margin-right: 20px;
+    list-style: none;
+    color: white;
+    }
+
+    .menu-bar__container a{
+        color: white;
+        }
