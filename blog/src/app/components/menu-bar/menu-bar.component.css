@@ -10,11 +10,11 @@ flex-direction: row;
 .menu-bar__container li{
     margin-right: 20px;
     list-style: none;
-    color: white;
+    color: rgb(69, 66, 66);
     }
 
     .menu-bar__container a{
-        color: white;
+        color: rgb(69, 66, 66);
         }
 
         @media (max-width: 768px) {
