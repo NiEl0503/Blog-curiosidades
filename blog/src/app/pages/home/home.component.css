@@ -9,3 +9,14 @@ header {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .articles__container {
+        flex-direction: column;
+    }
+
+    .articles__others {
+        display: block;
+        margin-top: 10px;
+}
+}

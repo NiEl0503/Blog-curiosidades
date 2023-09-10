@@ -16,3 +16,23 @@ flex-direction: row;
     .menu-bar__container a{
         color: white;
         }
+
+        @media (max-width: 768px) {
+            .menu-bar__container ul {
+                flex-direction: column;
+            }
+        
+            .menu-bar__container li {
+                margin: 10px 0;
+            }
+        
+            .menu-bar__container {
+                text-align: center;
+        }
+    }
+        
+        @media (max-width: 480px) {
+            .menu-bar__container li {
+                margin: 5px 0;
+            }
+        }
