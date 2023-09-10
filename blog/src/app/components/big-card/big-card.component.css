@@ -13,12 +13,13 @@
     height: 300px;
     width: 100%;
     min-width: 600px;
+    border-radius: 20px;
 }
 
 .big-card__title a {
     margin-top: 15px;
     font-size: 20px;
-    color: white;
+    color: rgb(32, 30, 30);
     display: flex;
     text-align: center;
 }
@@ -28,7 +29,7 @@
 }
 
 .big-card__description p {
-    color: rgb(223, 214, 214);
+    color: rgb(69, 66, 66);
 }
 
 @media (max-width: 768px) {
@@ -36,6 +37,7 @@
         width: 100%;
         height: auto;
         margin: 10px;
+        padding: 20px;
     }
 
     .big-card__photo img {
