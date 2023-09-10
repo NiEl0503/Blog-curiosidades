@@ -1,3 +1,5 @@
 .articles__container {
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
 }

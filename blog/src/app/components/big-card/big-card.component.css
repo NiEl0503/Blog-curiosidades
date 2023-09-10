@@ -1,5 +1,5 @@
 .big-card__container {
-    width: 400px;
+    width: 600px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,9 @@
 }
 
 .big-card__photo img {
-    height: 200px;
+    height: 300px;
     width: 100%;
-    min-width: 400px;
+    min-width: 600px;
 }
 
 .big-card__title a {
